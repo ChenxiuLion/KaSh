@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CosFundLib/CosFundLib.iml" filepath="$PROJECT_DIR$/CosFundLib/CosFundLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KaSh.iml" filepath="$PROJECT_DIR$/KaSh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cameraLibrary/cameraLibrary.iml" filepath="$PROJECT_DIR$/cameraLibrary/cameraLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" filepath="$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scolltextview/scolltextview.iml" filepath="$PROJECT_DIR$/scolltextview/scolltextview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xutilss/xutilss.iml" filepath="$PROJECT_DIR$/xutilss/xutilss.iml" />
+    </modules>
+  </component>
+</project>

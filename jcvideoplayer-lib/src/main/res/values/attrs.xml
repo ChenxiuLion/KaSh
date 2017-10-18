@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TasksCompletedView">
+        <attr name="taradius" format="dimension"/>
+        <attr name="tastrokeWidth" format="dimension"/>
+        <attr name="tacircleColor" format="color"/>
+        <attr name="taringColor" format="color"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <!--TitleBar-->
+    <!--返回-->
+    <string name="com_back">&#xe631;</string>
+    <!--设置-->
+    <string name="com_setting">&#xe662;</string>
+    <!--WheelView-->
+    <string name="date_select_title">%1$s年%2$s月%3$s日 %4$s:00</string>
+</resources>

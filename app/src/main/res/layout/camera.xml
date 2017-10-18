@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x140"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="15dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- 显示预览图形 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="宝宝考勤现场照片"
+        android:textColor="#1E9B5F"
+        android:textSize="@dimen/x14"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/x30"
+        />
+    <com.linj.camera.view.CameraContainer
+        android:id="@+id/container"
+        android:layout_width="@dimen/x100"
+        android:visibility="invisible"
+        android:layout_height="@dimen/x140" />
+
+    <include
+        android:id="@+id/camera_bottom_bar"
+         layout="@layout/camera_bottom_bar"
+
+        />
+
+    <include
+            android:id="@+id/camera_header_bar"
+         layout="@layout/camera_header_bar" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="hint_dialog_style" parent="@android:style/Theme.Dialog">
+        <!--去掉Dialog背景色-->
+        <item name="android:windowFrame">@null</item>
+        <!--去掉边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否悬浮在Activity之上-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--去掉标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--设置自定义View的背景透明-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!--设置弹出窗口背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="wheelViewStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="itemNumber">3</item>
+        <item name="lineColor">#ff6600</item>
+        <item name="bottomLineColor">#ffdadada</item>
+        <item name="lineHeight">3dp</item>
+        <item name="firstLineAndSecondLineSpace">10dp</item>
+        <item name="maskHight">32dp</item>
+        <item name="noEmpty">true</item>
+        <item name="normalTextColor">#99999999</item>
+        <item name="normalTextSize">14sp</item>
+        <item name="selectedTextColor">#222222</item>
+        <item name="selectedTextSize">22sp</item>
+        <item name="unitHight">50dp</item>
+    </style>
+</resources>

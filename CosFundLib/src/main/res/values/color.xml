@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="font_yellow_00">#ffae00</color>
+    <color name="dark">#d7d6d6</color>
+    <color name="dark_h">#666666</color>
+    <!--刷新-->
+    <color name="materialRed">#FFC93437</color>
+    <color name="materialBlue">#FF375BF1</color>
+    <color name="materialYellow">#FFF7D23E</color>
+    <color name="materialGreen">#FF34A350</color>
+    <!--MaterialDialog-->
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow">#10000000</color>
+    <color name="lite_blue">#ff359ff2</color>
+    <color name="window_background">#00000000</color>
+    <color name="black_de">#DE000000</color>
+</resources>

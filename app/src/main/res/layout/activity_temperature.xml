@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/temperature_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="正在等待测体温数据"
+        android:textColor="#1E9B5F"
+        android:gravity="center"
+        android:textSize="@dimen/x14"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/x90"
+        />
+    <ImageView
+        android:layout_width="@dimen/x110"
+        android:layout_height="@dimen/x110"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/x30"
+        android:background="@drawable/show_t"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/temperature_tv"
+        android:text="请测量学生体温"
+        android:textSize="@dimen/x10"
+        android:textColor="#1E9B5F"
+        android:layout_marginTop="@dimen/x30"
+        android:layout_gravity="center"
+        />
+</FrameLayout>

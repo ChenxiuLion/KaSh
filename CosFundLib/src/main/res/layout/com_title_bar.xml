@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/com_title_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    >
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    >
+    <LinearLayout
+        android:id="@+id/com_title_back_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="left|center_vertical"
+
+        android:padding="@dimen/spacing_dimension_10dp">
+
+        <TextView
+            android:id="@+id/com_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/com_title_content_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="@dimen/spacing_dimension_10dp">
+
+        <TextView
+            android:id="@+id/com_title_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/com_title_setting_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="right|center_vertical"
+        android:padding="@dimen/spacing_dimension_10dp">
+
+        <TextView
+            android:id="@+id/com_title_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="setting" />
+    </LinearLayout>
+</FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#fff"
+        android:visibility="gone"
+        >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shadow_bottom"
+        android:layout_gravity="bottom"
+        />
+    </FrameLayout>
+</LinearLayout>
